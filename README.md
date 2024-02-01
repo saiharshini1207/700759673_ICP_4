@@ -14,3 +14,18 @@ the absent entries in the DataFrame (df) containing each column's mean value. An
 
 
 #code 2
+
+The first step of the code is to import the required libraries: matplotlib.pyplot for plotting, pandas for data manipulation, and the needed scikit-learn modules for machine learning.
+Bring in Dataset:
+
+
+The dataset is loaded using the pandas library's pd.read_csv method from a CSV file called "Salary_Data.csv." The actual path must be used in place of the file path.
+Data division:
+
+The years of experience are represented by the independent variable (X) in the dataset, while the wage is represented by the dependent variable (y). Training and testing sets are created using scikit-learn's train_test_split function.
+The model of linear regression:
+
+The LinearRegression class from scikit-learn is used to generate a basic linear regression model. The fit method is used to fit the model to the training set.
+Forecast:
+
+The model that has been trained is utilized to 
