@@ -28,4 +28,13 @@ The model of linear regression:
 The LinearRegression class from scikit-learn is used to generate a basic linear regression model. The fit method is used to fit the model to the training set.
 Forecast:
 
-The model that has been trained is utilized to 
+The model that has been trained is utilized to on the test set are kept in y_pred, along with the anticipated values.
+Compute Mean Squared Error:
+
+The mean_squared_error function from scikit-learn is used to determine the mean squared error (MSE). The average squared difference (MSE) between the expected and actual values is a measurement.
+Illustration:
+
+To see the training and test data points, the code generates a scatter plot. On top of the plot is the regression line, which represents the training set's projected values.
+Print MSE:
+
+The console displays the computed mean squared error.
