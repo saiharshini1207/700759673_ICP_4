@@ -9,3 +9,8 @@ This line takes the 'Maxpulse' column out of the df_filled DataFrame and generat
 Basic statistical data (count, mean, std, min, 25%, 50%, 75%, max) regarding the numerical columns in the DataFrame df are produced by the describe() method. The description variable contains the results.
 
 the absent entries in the DataFrame (df) containing each column's mean value. An entirely new DataFrame called df_filled holds the result.
+
+'Calories' and 'Pulse' columns are used as filters to filter rows, and the result is stored in the filtered_calories_pulse variable.
+
+
+#code 2
