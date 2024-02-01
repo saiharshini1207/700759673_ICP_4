@@ -7,3 +7,5 @@ The 'Calories' and 'Pulse' columns using various functions (min, max, count, mea
 This line takes the 'Maxpulse' column out of the df_filled DataFrame and generates a new one called df_modified.
 
 Basic statistical data (count, mean, std, min, 25%, 50%, 75%, max) regarding the numerical columns in the DataFrame df are produced by the describe() method. The description variable contains the results.
+
+the absent entries in the DataFrame (df) containing each column's mean value. An entirely new DataFrame called df_filled holds the result.
